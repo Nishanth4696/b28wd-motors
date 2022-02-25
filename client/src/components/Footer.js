@@ -12,8 +12,7 @@ const Footer = () => {
                         <h3>Company Info</h3>
                     </div>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit
-                        sed do eiusmod temp incidunt ut .
+                    Thinking of buying a car? At <span style={{color:"blue"}}>autoshop.com</span>, buy new and used cars, search by filter and preferences, compare cars, read latest news and updates
                     </p>
                     <ul className="list-default">
                         <li>

@@ -24,12 +24,12 @@ const ContactUs = () =>{
                         </div>
                         <div className="contact-info p-lg-30 p-xs-15 bg-gray-fa bg1-gray-2">
                             <div className="content">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod temp incidunt ut labore et dolore magna aliqua uat enim ad minim veniama quis nostrud ullamco lab oris nisi ut aliqu.</p>
+                               
                                 <ul className="list-default">
                                     <li><i className="fa fa-clock-o"></i>123 Holding, Busan, Korea</li>
                                     <li><i className="fa fa-phone"></i>0123-456-789</li>
-                                    <li><i className="fa fa-envelope-o"></i>Support@htmlcs.com</li>
-                                    <li><i className="fa fa-globe"></i>www.htmlcs.com</li>
+                                    <li><i className="fa fa-envelope-o"></i>Support@htmlcss.com</li>
+                                    <li><i className="fa fa-globe"></i>www.htmlcss.com</li>
                                 </ul>
                             </div>
                         </div>

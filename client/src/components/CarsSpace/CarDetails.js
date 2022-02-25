@@ -35,7 +35,7 @@ class CarDetails extends React.Component {
 						<section className="m-t-lg-30 m-t-xs-0">
 							<div className="product_detail no-bg p-lg-0">
 								<h3 className="product-name color1-f">{name} / 
-									<span className="product-price color-red">${price}000.00 <i className="color-9 color1-9"> ( Plus Taxes & Licensing ) </i></span>
+									<span className="product-price color-red">${price} <i className="color-9 color1-9"> ( Plus Taxes & Licensing ) </i></span>
 									<span className="car-status m-l-lg-10">{condition !==undefined ? condition.toUpperCase() : ''}</span>
 								</h3>
 								<div className="row">
