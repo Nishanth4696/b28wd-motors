@@ -82,7 +82,7 @@ const Footer = () => {
                         </li>
                         <li>
                         <a  >
-                            <i className="fa fa-angle-right" />Our Servces
+                            <i className="fa fa-angle-right" />Our Services
                         </a>
                         </li>
                     </ul>
@@ -121,7 +121,7 @@ const Footer = () => {
                         </li>
                         <li>
                         <a  >
-                            <i className="fa fa-facebook" />
+                            <i className="fa fa-twitter" />
                         </a>
                         </li>
                     </ul>
