@@ -66,7 +66,7 @@ class Home extends Component{
                             <div className="product-caption">
                                 <h4 className="product-name">
                                 <a  >
-                                    KIA SOUL, BRAND NEW MODEL 2016 > <b>used</b>
+                                    KIA SOUL, BRAND NEW MODEL 2016  <b>used</b>
                                 </a>
                                 <span className="f-18"> $201,000</span>
                                 </h4>

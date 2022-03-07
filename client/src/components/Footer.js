@@ -11,10 +11,10 @@ const Footer = () => {
                     <div className="heading-1">
                         <h3>Company Info</h3>
                     </div>
-                    <p>
-                    Thinking of buying a car? At <span style={{color:"blue"}}>autoshop.com</span>, buy new and used cars, search by filter and preferences, compare cars, read latest news and updates
+                    <p style={{cursor:"pointer"}}>
+                    Thinking of buying a car? At <span style={{color:"blue"}} >autoshop.com</span>, buy new and used cars, search by filter and preferences, compare cars, read latest news and updates
                     </p>
-                    <ul className="list-default">
+                    <ul className="list-default" style={{cursor:"pointer"}}>
                         <li>
                         <i className="fa fa-signal" />123 Holding, Busan, Korea
                         </li>
@@ -37,8 +37,7 @@ const Footer = () => {
                         <h3>Newsletter</h3>
                         </div>
                         <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit
-                        sed do eiusmod temp incidunt ut{" "}
+                       {" "}
                         </p>
                         <form>
                         <div className="form-group">
@@ -59,7 +58,7 @@ const Footer = () => {
                     <div className="heading-1">
                         <h3>Quick Link</h3>
                     </div>
-                    <ul className="list-default">
+                    <ul className="list-default" style={{cursor:"pointer"}}>
                         <li>
                         <a  >
                             <i className="fa fa-angle-right" />Privacy Policy

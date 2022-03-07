@@ -20,8 +20,8 @@ class SharedLayout extends Component{
               <div className="row">
                 <div className="col-sm-12 col-md-12 col-lg-12">
                   <div className="banner-item banner-2x no-bg color-inher">
-                    <h2 className="f-weight-300">More <strong>20 000 </strong>Vehicle advaiable</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do</p>			
+                    <h2 className="f-weight-300">More than <strong>20 000 </strong>Vehicle avaiable</h2>
+                    <p></p>			
                     <Link to={"/cars"} className="ht-btn ht-btn-default ht-btn-2x m-t-lg-35">          
                       View all cars                      
                     </Link>

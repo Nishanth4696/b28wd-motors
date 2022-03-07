@@ -23,7 +23,7 @@ const  Sell = () => {
                                     <div className="heading-1">
                                         <h3>Car Infomation</h3>
                                     </div>
-                                    <p className="m-b-lg-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit et dolore magna aliqua</p>
+                                    <p className="m-b-lg-20"></p>
                                     <div className="row">
                                         <div className="col-sm-12 col-md-12 col-lg-12">
                                             <div className="form-group">
@@ -53,7 +53,7 @@ const  Sell = () => {
                                     <div className="heading-1">
                                         <h3>Upload Images</h3>
                                     </div>
-                                    <p className="m-b-lg-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit et dolore magna aliqua</p>
+                                    <p className="m-b-lg-20"></p>
                                     <div className="row">
                                         <div className="col-sm-4 col-md-4 col-lg-3 m-b-lg-20 text-left">
                                             <img src="images/b-img-1.jpg" alt=""/>
@@ -88,13 +88,13 @@ const  Sell = () => {
                                             <i className="remove-img fa fa-remove"></i>
                                         </div>
                                     </div>
-                                    <a  className="ht-btn ht-btn-default"><i className="fa fa-plus"></i>Add image</a>
+                                    <a  className="ht-btn ht-btn-default" style={{cursor:"pointer"}}><i className="fa fa-plus" ></i>Add image</a>
                                 </div>
                                 <div className="m-b-lg-20">
                                     <div className="heading-1">
                                         <h3>Car Details </h3>
                                     </div>
-                                    <p className="m-b-lg-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit et dolore magna aliqua</p>
+                                    <p className="m-b-lg-20"></p>
                                     <div className="row">
                                         <div className="col-sm-6 col-md-4 col-lg-4 m-b-lg-20">
                                             <div className="select-wrapper">
@@ -302,7 +302,7 @@ const  Sell = () => {
                                     <div className="heading-1">
                                         <h3>Features & Options</h3>
                                     </div>
-                                    <p className="m-b-lg-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit et dolore magna aliqua</p>
+                                    <p className="m-b-lg-20"></p>
                                     <div className="row">
                                         <div className="col-lg-4 text-left">
                                             <div className="checkbox">
@@ -415,7 +415,7 @@ const  Sell = () => {
                                     <div className="heading-1">
                                         <h3>TECHNICAL SPECIFICATIONS</h3>
                                     </div>
-                                    <p className="m-b-lg-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit et dolore magna aliqua</p>
+                                    <p className="m-b-lg-20"></p>
                                     <div className="row">
                                         <div className="col-lg-4 text-left">
                                             <div className="checkbox">
@@ -430,7 +430,7 @@ const  Sell = () => {
                                     <div className="heading-1">
                                         <h3>Contact Details</h3>
                                     </div>
-                                    <p className="m-b-lg-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit et dolore magna aliqua</p>
+                                    <p className="m-b-lg-20"></p>
                                     <form>
                                         <div className="row">
                                             <div className="col-md-6 col-lg-6">
@@ -495,13 +495,13 @@ const  Sell = () => {
                                     <h3>Trouble Uploading?</h3>
                                 </div>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+                                    
                                 </p>
                                 <ul className="list-default">
-                                    <li><a  ><i className="fa fa-angle-right"></i>Lorem ipsum dolor sit amet</a></li>
-                                    <li><a  ><i className="fa fa-angle-right"></i>Lorem ipsum dolor sit amet</a></li>
-                                    <li><a  ><i className="fa fa-angle-right"></i>Lorem ipsum dolor sit amet</a></li>
-                                    <li><a  ><i className="fa fa-angle-right"></i>Lorem ipsum dolor sit amet</a></li>
+                                    <li><a  ><i className="fa fa-angle-right"></i>Compress The car image size</a></li>
+                                    <li><a  ><i className="fa fa-angle-right"></i>Enter the correct model name</a></li>
+                                    <li><a  ><i className="fa fa-angle-right"></i>format of image in .jpg,.jpeg</a></li>
+                                    
                                 </ul>
                             </div>
                         </div>

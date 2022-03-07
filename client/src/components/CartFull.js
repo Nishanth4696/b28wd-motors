@@ -1,5 +1,6 @@
 import React,{Component} from 'react';
 import { connect } from "react-redux";
+
 import { removeFromBasket, addToBasket, changeBasketItem} from '../actions';
 import * as $ from 'jquery';
 
@@ -90,7 +91,9 @@ class  CartFull extends Component {
       
   };
 
+
   render(){
+    
     return <div className="wrap-body-inner">
     <div className="hidden-xs">
       <div className="row">
@@ -98,7 +101,7 @@ class  CartFull extends Component {
           <ul className="ht-breadcrumb pull-left">
             <li className="home-act">
               <a href=" ">
-                <i className="fa fa-home" />
+                <i className="fa fa-home"/>
               </a>
             </li>
             <li className="home-act">

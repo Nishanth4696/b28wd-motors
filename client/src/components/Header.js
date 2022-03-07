@@ -11,7 +11,7 @@ class Header extends  Component{
                 <div className="top-header">
                 <div className="container">
                     <div className="row">
-                    <div className="col-sm-6 col-md-6 col-lg-6 hidden-xs">
+                    <div className="col-sm-6 col-md-6 col-lg-6 hidden-xs" style={{cursor:"pointer"}}>
                         <p className="f-14">
                         <i className="fa fa-map-marker m-r-lg-5" />
                         <strong>AUTOSHOP</strong> - 123 HOLDING, BUSAN, KOREA
@@ -19,19 +19,19 @@ class Header extends  Component{
                     </div>
                     <div className="col-sm-6 col-md-6 col-lg-6">
                         <ul className="pull-right">
-                        <li>
+                        <li style={{cursor:"pointer"}}>
                             <a   className="icon-1">
                             <i className="fa fa-user" />
                             <span>My Account</span>
                             </a>
                         </li>
-                        <li>
+                        <li style={{cursor:"pointer"}}>
                             <a className="icon-1">
                             <i className="fa fa-cart-plus" />
                             <span>Checkout</span>
                             </a>
                         </li>
-                        <li className="cart-icon">
+                        <li className="cart-icon" style={{cursor:"pointer"}}>
                             <Link to={"/whishlist"}>
                             
                                 <i className="fa fa-heart" />
@@ -55,7 +55,7 @@ class Header extends  Component{
                         </a>
                     </div>
                     <div className="col-md-9 col-lg-9">
-                        <div className="hotline">
+                        <div className="hotline" style={{cursor:"pointer"}}>
                         <span className="m-r-lg-10">Need support? Call us:</span>
                         <a href="tel:01686813774">
                             <i className="fa fa-phone" />0123-456-789
