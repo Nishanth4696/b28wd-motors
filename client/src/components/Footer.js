@@ -97,7 +97,7 @@ const Footer = () => {
                     <div className="col-md-6">
                     <p>
                         © 2016 Designed by{" "}
-                        <a href="https://themeforest.net/user/t3theme">t3theme</a>.
+                        <a>theme@me</a>.
                         All rights reserved
                     </p>
                     </div>
