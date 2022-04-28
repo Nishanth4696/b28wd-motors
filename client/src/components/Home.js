@@ -1,5 +1,7 @@
 import React,{Component} from 'react';
 
+import { Link } from 'react-router-dom';
+
 class Home extends Component{
 
     componentDidMount(){
@@ -209,7 +211,10 @@ class Home extends Component{
                 </h3>
                 <p>No hidden fees or costs, you pay what you need.</p>
                 <a className="ht-btn ht-btn-default">
-                    Click to sell your car
+                        <Link to={"/sellacar"} className="dropdown-toggle">
+                        Click to sell your car
+                                        </Link>
+                   
                 </a>
                 </div>   
             </div>

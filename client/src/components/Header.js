@@ -25,12 +25,7 @@ class Header extends  Component{
                             <span>My Account</span>
                             </a>
                         </li>
-                        <li style={{cursor:"pointer"}}>
-                            <a className="icon-1">
-                            <i className="fa fa-cart-plus" />
-                            <span>Checkout</span>
-                            </a>
-                        </li>
+                       
                         <li className="cart-icon" style={{cursor:"pointer"}}>
                             <Link to={"/whishlist"}>
                             
